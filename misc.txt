@@ -1,0 +1,38 @@
+Gnome Tweaks:
+Keyboard and mouse -> Acceleration profile --> adaptive
+Top bar -> weekday + week numbers + battery pct on
+Window Tittlebars -> Titlebar Buttons -> Maximize and minimize on
+
+Firefox:
+get "GNOME Shell integration" addon
+
+
+The default font rendering in Pop!_OS may appear blurry on LCD monitors. Gnome's OS settings application lacks the ability to change font rendering. You must install the Gnome Tweak Tool to adjust these settings. Gnome Tweak Tool can be installed from the Pop!_Shop or from a terminal as shown below:
+
+    Run gnome-tweaks
+    Fonts > Hinting > Set to "Full"
+    Fonts > Antialiasing > Set to "Subpixel (for LCD screens)"
+
+
+Git configuration:
+git config --global user.name "Your Name"
+git config --global user.email yourname@yourdomain.com
+
+Gnome Extensions:
+User Themes
+Extensions
+Applications Menu
+Removable Drive Menu
+Caffeine
+Screenshot Tool
+Places Status Indicator --> ON
+Hide Activities Button 
+
+Gnome Theme: 
+Install ocs-url -> https://www.opendesktop.org/p/1136805/ 
+Gnome Orchis gtk theme: https://www.gnome-look.org/p/1357889/ 
+Tela Icon Theme  -> https://www.pling.com/p/1279924/
+ 
+go to gnome tweaks and turn in on under appearance 
+
+Download https://www.jetbrains.com/toolbox-app/ if you want jetbrains IDE's (updates better than packages it seems)
