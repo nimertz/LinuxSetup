@@ -36,3 +36,6 @@ Tela Icon Theme  -> https://www.pling.com/p/1279924/
 go to gnome tweaks and turn in on under appearance 
 
 Download https://www.jetbrains.com/toolbox-app/ if you want jetbrains IDE's (updates better than packages it seems)
+
+Change default terminal from gnome terminal:
+sudo update-alternatives --config x-terminal-emulator

@@ -14,6 +14,7 @@ sudo apt-get install -y htop
 flatpak install postman
 flatpak install vlc
 flatpak install spotify
+flatpak install ferdi
 
 # install common development tools:
 sudo apt install \
@@ -111,4 +112,21 @@ sudo dpkg -i vagrant_2.2.14_x86_64.deb
 vagrant plugin install vagrant-digitalocean
 
 # Install touchpad gestures
+
+
+
+# ---------------------------------------
+#          MySQL Setup
+# ---------------------------------------
+
+# Setting MySQL root user password root/root
+sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password root'
+sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password root'
+
+
+# Installing mysql
+sudo apt-get install -y mysql-server mysql-client
+
+sudo mysql -u root -proot -e "GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root'; FLUSH privileges;"
+sudo service mysql restart
 
