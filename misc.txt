@@ -39,3 +39,16 @@ Download https://www.jetbrains.com/toolbox-app/ if you want jetbrains IDE's (upd
 
 Change default terminal from gnome terminal:
 sudo update-alternatives --config x-terminal-emulator
+
+Install gestures for mousepad
+https://github.com/Hikari9/comfortable-swipe 
+
+Firefox back/forward
+comfortable-swipe left3 = Alt+Left
+comfortable-swipe right3 = Alt+Right
+
+Pop!_OS switch workspace
+comfortable-swipe up3 = Super+Ctrl+Down
+comfortable-swipe down3 = Super+Ctrl+Up
+
+
